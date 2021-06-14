@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ImageView
+        android:id="@+id/imageviewbaihathot"
+        android:scaleType="fitXY"
+        android:layout_margin="3dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+    <TextView
+        android:id="@+id/ten_bai_hat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Tên Bài Hát"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dp"
+        tools:ignore="HardcodedText"
+        tools:targetApi="ice_cream_sandwich" />
+    <TextView
+        android:id="@+id/sum_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ten_bai_hat"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:fontFamily="serif"
+        android:text="time"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageviewluotthich"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="4dp"
+        android:src="@drawable/iconlove" />
+
+</RelativeLayout>

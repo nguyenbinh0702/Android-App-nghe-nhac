@@ -1,0 +1,2 @@
+rootProject.name = "Appnhac"
+include ':app'
